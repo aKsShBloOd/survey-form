@@ -133,19 +133,19 @@ textarea {
 }
 
 @media (min-width: 768px) {
-    .container {
+    #container {
         max-width: 720px;
     }
 }
 
 @media (min-width: 576px) {
-    .container {
+    #container {
         max-width: 540px;
     }
 }
 
-@media (max-width: 480px) {
-    .container {
+@media (min-width: 480px) {
+    #container {
         max-width: 540px;
     }
     h1 {
